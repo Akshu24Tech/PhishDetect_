@@ -8,14 +8,14 @@ export default function Footer() {
           <div className="mb-4 md:mb-0">
             <div className="flex items-center">
               <Shield className="w-6 h-6 mr-2" />
-              <span className="font-semibold font-ibm">PhishGuard</span>
+              <span className="font-semibold font-ibm">PhishDetect</span>
             </div>
             <p className="text-sm mt-2 text-gray-300 font-ibm">
               Protecting users from phishing attempts with AI
             </p>
           </div>
           <div className="text-sm text-gray-300 font-ibm">
-            <p>© {new Date().getFullYear()} PhishGuard. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} PhishDetect. All rights reserved.</p>
             <div className="flex justify-center md:justify-end mt-2 space-x-4">
               <a href="#" className="hover:text-white">Privacy Policy</a>
               <a href="#" className="hover:text-white">Terms of Service</a>
